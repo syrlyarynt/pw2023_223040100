@@ -18,10 +18,10 @@
     {
         //menghitung keliling lingkaran rumusnya 2 x pi x r
         $keliling = 2 * 3.14 * $r;
-        return $keliling . " cm";
+        return $keliling . " cm ";
     }
 
-    echo "Jari-jari = 20cm. <br>";
+    echo "Jari-jari = 20 cm. <br>";
     echo "Luas lingkaran = " . hitungKelilingLingkaran(20) . "<br>";
     echo "<hr>";
     
