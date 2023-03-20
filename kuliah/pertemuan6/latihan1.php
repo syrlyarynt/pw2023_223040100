@@ -1,7 +1,15 @@
 <?php 
-$binatang = ['🐱', '🐯', '🐺', '🦄', '🐨', '🐲'];
-$makanan = ['🍕', '🍨', '🍟', '🍜', '🍱', '🍳'];
-$mahasiswa = ['Ranisa', 'Ipeh', 'Lala', 'Tegar', 'Satria'];
+//array multidimensi
+//array di dalam array
+$mahasiswa = [
+['Ranisa', '🐱', '🍕'], 
+['Ipeh', '🐯', '🍨'], 
+['Lala', '🐺', '🍟'], 
+['Tegar', '🐨', '🍱'], 
+['Satria', '🐲', '🍳']
+];
+
+
 
 ?>
 <!DOCTYPE html>
@@ -17,9 +25,9 @@ $mahasiswa = ['Ranisa', 'Ipeh', 'Lala', 'Tegar', 'Satria'];
     <?php foreach($mahasiswa as $m ) { ?>
 
     <ul>
-        <li>Nama: <?= $makanan[$i]; ?></li>
-        <li>Makanan Favorit: <?= $makanan[$i]; ?></li>
-        <li>Hewan peliharaan: <?= $binatang[$i]; ?></li>
+        <li>Nama: <?= $m [0]; ?></li>
+        <li>Makanan Favorit: <?= $m [2]; ?></li>
+        <li>Hewan peliharaan: <?= $m [1]; ?></li>
     </ul>
     <?php } ?>
 </body>
