@@ -1,0 +1,84 @@
+create table mahasiswa ( id int primary key auto_increment, nim char(9), nama
+varchar(250), email varchar(250), jurusan varchar(250) );
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eYsBlog</title> -->
+<!-- Box-icon -->
+<!-- <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Crimson+Text&family=DM+Serif+Display:ital@1&family=Patua+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body> -->
+<!-- Navbar -->
+<!-- <header>
+      <div class="nav container">
+        <a href="index.php" class="logo"><i class='bx bxs-leaf'></i>eYs<span>Blog</span></a>
+        <a href="index.php" class="Home">HOME</a>
+        <a href="product.php" class="product">Product</a>
+        <a href="login.php" class="login">Login</a>
+      </div> 
+    </header> -->
+
+<!-- Home -->
+<!-- <section class="home" id="home">
+      <div class="home-text container">
+        <h2 class="home-title">Tech Blogg</h2>
+        <span class="home-subtitle">Your source of great content</span>
+      </div>
+    </section> -->
+
+<!-- About -->
+<!-- <section class="about container" id="about">
+      <div class="contentBx">
+        <h2 class="titleText">Teknologi</h2>
+        <p class="title-text">
+          Teknologi adalah keseluruhan sarana untuk menyediakan barang yang
+          dibutuhkan untuk kelangsungan hidup dan kenyamanan hidup manusia.
+          Penggunaan istilah ‘teknologi’ dalam bahasa Inggris: technology telah
+          berubah secara signifikan selama 200 tahun terakhir. Sebelum abad
+          ke-20, istilah ini tidak umum dalam bahasa Inggris, dan biasanya
+          mengacu pada penggambaran atau seni terapan penilaian. Istilah ini
+          sering dikaitkan dengan pendidikan teknis, seperti Massachusetts
+          Institute of Technology (didirikan pada tahun 1861).
+          <br />
+          <a href="readmore.php" class="btn2">Read more</a>
+        </p>
+      </div>
+
+      <div class="imgBx">
+        <img src="assets/images/about1.jpg" alt="" class="fitBg" />
+      </div>
+    </section> -->
+
+<!-- Footer -->
+<!-- <footer>
+      <div class="footer-container">
+        <p>Copyright &copy; 2023 by Syerli Aryanti | All Rights Reserved.</p>
+          <div class="social">
+            <a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html> -->
